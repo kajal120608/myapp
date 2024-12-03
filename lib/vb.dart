@@ -12,7 +12,7 @@ class vb extends StatefulWidget {
 }
 
 class _vbState extends State<vb> {
-  var data="Test";
+  late List<String> studets;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
