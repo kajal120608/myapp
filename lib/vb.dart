@@ -12,6 +12,7 @@ class vb extends StatefulWidget {
 }
 
 class _vbState extends State<vb> {
+  var data="Test";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
